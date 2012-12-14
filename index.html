@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Phonegap Presentation</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='slides.js'></script>
+  </head>
+  
+<style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    .slides.template-default > article:not(.nobackground):not(.biglogo) {
+      background: url(images/logolong-100.png) bottom right no-repeat !important;  
+      background-color: white !important;  
+    } 
+    h2.normal {
+      position:relative;
+      top:10px;
+    }
+    ul.numbered li {
+      list-style-type: decimal;
+    }
+    .pink {
+      color:#f06;
+    }
+    .djgreen {
+      color: #163f2e;
+    }
+    .nomargin {
+      margin:0px;
+    }
+    h1 {
+      margin-top:120px;
+    }
+
+    h1.bigger {
+      font-weight:bold;
+      font-size: 80px !important;
+    }
+    .centerv {
+     margin-top:200px; 
+    }
+    div.freeticket {
+      padding-top: 40px;
+    }
+    div.features {
+      padding-top: 20px;
+    }
+    div.features div {
+      list-style: none !important;
+      background: transparent url(images/freept.jpg) no-repeat;
+      padding-left:60px;
+      vertical-align: middle;
+      line-height:60px;
+      margin-bottom:20px;
+    }
+    div.freeticket div {
+      list-style: none !important;
+      background: transparent url(images/freept.jpg) no-repeat;
+      padding-left:60px;
+      vertical-align: middle;
+      line-height:60px;
+      margin-bottom:30px;
+    }
+    .bold {
+        font-weight:bold;
+    }
+    div.list div {
+      margin-bottom:15px;
+      font-size:40px
+    }
+  </style>
+
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+        
+      <article style="text-align:center">
+        <h1 style='margin-top:30px;font-size:65px'>Phonegap Presentation</h1>
+        <br>
+        <img src="images/buildbot.png" width=400 />
+        <br>
+        <div style='font-size:18px'>@Moniteur, 17/12/2012</div>
+      </article>
+
+      <article>
+        <h1>About revolunet</h1>
+        <br>
+        <h2 class='normal'><span class='pink'>rich web apps</span>
+        for desktop & mobile</h2>
+        <br>
+        Tools: Phonegap + Sencha<br>
+        Development & Training<br>
+        Phonegap contributors
+        <br><br>
+        <p>
+          <img width=50 style="vertical-align:middle" src="images/twitter.png"/> @revolunet
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <img width=50  style="vertical-align:middle"  src="images/octocat.png"/> revolunet
+        </p>
+      </article>
+
+      <article  >
+        <h2 class='normal'>What is <span class='pink'>Phonegap</span> ?</h2>
+        <br><br>
+        <br><br>
+        An application container for your web app
+        <br><br>
+        Provides an cross-platform API to native functions
+        <br><br>
+        Allows single code base for various platforms
+        <br><br>
+        Allows application distribution through stores
+      </article>
+
+      <article  >
+        <h2 class='normal'>What is <span class='pink'>Phonegap</span> ?</h2>
+        <br><br>
+        <br><br>
+        Phonegap native API anticipates browsers evolutions
+        <br><br>
+        And strictly follows the W3C recommendations
+        <br><br>
+        Does not provide the UI layer
+        <br><br>
+        Works with any HTML/Javascript framework
+
+      </article>
+
+      <article  >
+        <h2 class='normal'><span class='pink'>HTML5</span> progress</h2>
+        <br><br><br><br>
+        <img src="images/html5-progress-desktop.png" width="370"/>
+        
+        <img src="images/html5-progress-mobile.png" width="370"/>
+        <br><br><br><br>
+        <center>
+          <span style="font-size:24px" class="pink">HTML5 features adoption (Sencha, 12/12)</span>
+        </center>
+      </article>
+
+      <article  >
+        <h2 class='normal'>Phonegap <span class='pink'>History</span></h2>
+        <br><br>
+        <br><br>
+        Started as a 24hr hackaton project in 2009
+        <br><br>
+        Developed during two years for various projects @Nitobi
+        <br><br>
+        Team acquired by Adobe in Sept, 2011
+        <br><br>
+        Now a key feature in Adobe mobile strategy
+        <br><br>
+        And an Open Source Apache project (Cordova)
+      </article>
+
+      <article  >
+        <h2 class='normal'><span class='pink'>Adobe</span> + Phonegap</h2>
+        <br>
+        Adobe acquisition = huge boost in phonegap development
+        <br><br>
+        <center>
+          <img src="images/issues.png" width="600"/>
+          <br>1Y: ~1900 issues, 85% resolved
+        </center>
+      </article>
+
+      <article  >
+        <h2 class='normal'><span class='pink'>Adobe</span> + Phonegap</h2>
+        <br><br>
+        <br>
+        Code base refactoring
+        <br><br>
+        Performance improvements
+        <br><br>
+        API unification
+        <br><br>
+        Full test suite 
+        <br><br>
+        Dev/Build/Debug tools (emulator)
+      </article>
+
+      <article  >
+        <h2 class='normal'><span class='pink'>Adobe</span> Phonegap strategy</h2>
+        <br><br>
+        Cloud application builder : build.phonegap.com
+        <br><br>
+        <img src="images/build.png" width="400"/>
+        <br><br><br>
+        Phonegap integrated in Adobe tools
+
+      </article>
+
+      <article  >
+        <h2 class='normal'>Phonegap <span class='pink'>Future</span></h2>
+        <br>
+        <br><br>
+        More developers tools
+        <br><br>
+        More partnerships & visibility
+        <br><br>
+        Performance improvements
+        <br><br>
+        Better multimedia support
+        <br><br>
+        More native UI controls
+      </article>
+
+      <article  >
+        <h2 class='normal'><span class='pink'>Phonegap</span> Contributors</h2>
+        <br><br>
+        <center>
+          <img src="images/contributors.png"/>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h1>Sample Phonegap projects</h1>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h2 class="normal">SeLoger - BellesDemeures.com</h2>
+          <br>
+          <img src="images/ipad_BD_trio.png" width="700">
+          <br>
+          iPad / Android / BlackBerry
+          <br><br>
+          <span style="font-size:24px" class="pink">by revolunet, using Sencha + Phonegap</span>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h2 class="normal">SeLoger - POLIRIS</h2>
+          <br>
+          <img src="images/showcaseB.png" width="500">
+          <br>
+          iPad / Android
+          <br><br>
+          <span style="font-size:24px" class="pink">by revolunet, using Sencha + Phonegap</span>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h2 class="normal">OFSAD - e-coffrefort.fr</h2>
+          <br>
+          <img src="images/iOs_Android_telAndroid.jpg" width="500">
+          <br><br>
+          iPad / iPhone / Android
+          <br><br>
+          <span style="font-size:24px" class="pink">by revolunet, using Sencha + Phonegap</span>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h2 class="normal">BBC olympics</h2>
+          <br><br>
+          <img src="images/bbc_1.jpeg" width="200">
+          <img src="images/bbc_2.jpeg" width="200">
+          <img src="images/bbc_3.jpeg" width="200">
+          <br><br>
+          iPad / Android
+          <br><br>
+          <span style="font-size:24px" class="pink">built with Sencha + Phonegap</span>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h2 class="normal">Wikipedia</h2>
+          <br><br>
+          <img src="images/wikipedia_1.jpeg" width="200">
+          <img src="images/wikipedia_2.jpeg" width="200">
+          <img src="images/wikipedia_3.jpeg" width="200">
+          <br><br>
+          iPad / Android
+          <br><br>
+          <span style="font-size:24px" class="pink">built with Sencha + Phonegap</span>
+        </center>
+      </article>
+
+       <article>
+        <center>
+          <h2 class="normal">Mafia Wars (Zynga)</h2>
+          <br><br>
+          <img src="images/MafiaWars_iPhone.jpeg" width="450">
+          <br><br>
+          iPhone
+          <br><br>
+          <span style="font-size:24px" class="pink">built with Phonegap</span>
+        </center>
+      </article>
+
+
+      <article>
+        <h2 class="normal">Phonegap <span class=pink >goals</span></h2>
+        <br><br><br><br><br>
+        <center>
+        <q style="font-size:34px;margin:0px">
+          The Web is a first class citizen dev platform
+        </q>
+        <!--
+        <br><br>
+        <q style="font-size:34px;margin:0px">
+          Phonegap goal is to <span class=pink >cease to exist</span>
+        </q>
+      -->
+      </center>
+      </article>
+
+      <article>
+        <br>
+        <h1 style='font-size:100px;margin-top:50px' class=pink align=center >END</h1>
+        <br><br>
+        <center><h2 class=normal >Thanks :)</h2></center>
+        <br><br><br><br>
+        <p><img width=50 style="vertical-align:middle" src="images/twitter.png"/> @revolunet</p>
+        <p><img width=50  style="vertical-align:middle"  src="images/octocat.png"/> revolunet</p>
+      </article>
+
+    </section>
+
+  </body>
+</html>
